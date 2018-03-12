@@ -8,8 +8,8 @@ ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www')
 var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 })();
 </script>
-<section style="z-index:4;padding-bottom:50px;padding-top:36px;background-color:#f0f0f0;" id="Achieve">
-  <center><h1 style="text-align: center;color:rgba(9, 47, 55, 0.99);font-family:'Montserrat', sans-serif;">- Achievements -</h1></center>
+<section  id="Achieve" class="ach">
+  <center><h1 class="achhead">- Achievements -</h1></center>
   <div class="containerr" style="padding:20px 90px">
   			<div class="slideshow" id="slideshow">
   				<ol class="slides">

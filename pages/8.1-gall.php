@@ -2,7 +2,7 @@
 <link href="assets/css/swiper.min.css" rel="stylesheet">
 <script src="assets/js/swiper.min.js"></script>
     <div class="swiper-container gallery-top " style="background-color:#f0f0f0;padding:21px;padding-top: 50px;"  id="Acheive">
-        <center><h1 style="text-align: center;color:rgba(9, 47, 55, 0.99);font-family:'Montserrat', sans-serif;">- Achievements -</h1></center>
+        <center><h1class="achhead">- Achievements -</h1></center>
         <div class="swiper-wrapper">
           <?php                foreach ($gall as $pic) {           ?>
             <div class="swiper-slide" style='height:69vw;background-image:url(<?php echo $pic["img"]; ?>);'></div>
@@ -15,7 +15,7 @@
     <div class="swiper-container gallery-thumbs" style="background-color:#f0f0f0;" >
         <div class="swiper-wrapper">
           <?php              foreach ($gall as $pic) {           ?>
-            <div class="swiper-slide fixthumb" style='height:15vh;background-image:url(<?php echo $pic["img"]; ?>)'></div>
+            <div class="swiper-slide fixthumb" style='background-image:url(<?php echo $pic["img"]; ?>)'></div>
             <?php                  }             ?>
           </div>
     </div>

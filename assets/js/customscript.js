@@ -263,12 +263,12 @@ $(document).ready(function () {
       return false;
     }
 //check that writing script is not allowed
-      if(msg.match(/<script>/)||msg.match(/<?php/)){
+      if(msg.match(/<script>/i)){
         txterror = "Writing Script is not allowed ";
         errorhandle(txterror);
         return false;
       }
-      if(msg.match(/<?php/)){
+      if(msg.match(/<?php/i)){
         txterror = "Writing php is not allowed please p.h.p";
         errorhandle(txterror);
         return false;

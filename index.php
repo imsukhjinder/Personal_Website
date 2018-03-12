@@ -11,7 +11,7 @@
           <title>Sweet Sardaar</title>
 	</head><body>
 				<div id="loader">
-					<img src="assets/images/icons/bars.svg" alt="loding-lines"><center>  <h1 style="color:white">Loading...<br> Please Wait</h1></center>
+					<img src="assets/images/icons/bars.svg" alt="loding-lines"><center>  <h1>Loading...<br> Please Wait</h1></center>
 				</div>
 				<?php include 'pages/4-hero-section.php'; ?>
 				<?php include 'pages/5-intro-section.php'; ?>
@@ -19,7 +19,8 @@
 				<?php include 'pages/7-work-section.php'; ?>
 				<div class="" id="loadgall"></div>
 				<?php include 'pages/9.1-contact-section.php'; ?>
-	<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+        <?php include 'pages/10.1-footer-section.php'; ?>
+  <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 	<script src="assets/js/customscript.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 	</body></html>

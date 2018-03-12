@@ -2,7 +2,7 @@
   <div class="footer">
     <div class="row" style="width: 100%;">
       <div class="col-sm-2 slogo">
-          <img src="assets/images/backgrounds/logo13.png" alt="" class="logo2" style="animation:flick 2s infinite;">
+          <img src="assets/images/backgrounds/logo13.png" alt="" class="logo2" >
       </div>
       <div class="col-sm-10">
         <div class="social-links">

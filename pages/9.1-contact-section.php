@@ -57,5 +57,4 @@
             <!-- alret box end -->
         </div>
     </div>
-    			<?php include 'pages/10.1-footer-section.php'; ?>
 </div>

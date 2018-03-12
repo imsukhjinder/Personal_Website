@@ -10,34 +10,15 @@ box-sizing: inherit;
 backface-visibility: hidden;
 -webkit-font-smoothing: antialiased;
 }
-
-*:focus {
-outline: 1px dashed gray;
-}
-
 html {
 box-sizing: border-box;
 }
 
 body {
-
 background-size: cover;
 min-width: 300px;
 font-family: 'Open Sans', sans-serif;
 font-size: 16px;
-}
-
-h1, h2, h3, h4, h5 {
-display: block;
-font-weight: 400;
-}
-
-li, span, p, a, h1, h2, h3, h4, h5 {
-line-height: 1;
-}
-
-p {
-display: block;
 }
 
 a {
@@ -162,6 +143,7 @@ height: 100vh;
 }
 .thanktext
 {
+margin-top: -100px;
 color: #ecf0f1;
 width: 100%;
 margin-bottom: 20px;

@@ -16,6 +16,7 @@ svg {
   height: 100%; }
 
 #loader {
+    color:white;
     position: fixed;
     width: 100vw;
     display: flex;
@@ -493,7 +494,7 @@ margin-left: -90px;
 
 /* Skill Section */
 .skill {
-  width: calc(99% + 10px);
+  width: 100vw;
   color: rgba(9, 47, 55, 0.99);
   font-weight: bold;
   background-color: #f0f0f0;
@@ -650,7 +651,7 @@ margin-left: -90px;
 
 /* Work Section */
 .work {
-  width: 99vw;
+  width: 100vw;
   color: rgba(9, 47, 55, 0.99);
   padding: 2%;
   position: relative;
@@ -990,6 +991,17 @@ margin-left: -90px;
 /* Buttons End*/
 
 /*Slideshow Acheivements*/
+.ach{
+  z-index: 4;
+  padding-bottom: 50px;
+  padding-top: 36px;
+  background-color: #f0f0f0;
+}
+.achhead{
+  text-align: center;
+  color:rgba(9, 47, 55, 0.99);
+  font-family:'Montserrat', sans-serif;
+}
 .slideshow {
 position: relative;
 }
@@ -1808,9 +1820,8 @@ code {
   background-color: white;
   padding: 10px;
   padding-top: 20px;
-  padding-bottom: 129px;
   z-index: 3;
-  margin-bottom: 222px; }
+  margin-bottom: 102px; }
   .contact h1 {
     text-align: center;
     color: rgba(9, 47, 55, 0.99);
@@ -1995,6 +2006,7 @@ textarea.has-value + label {
 }
 #alert{
     display: none;
+    z-index: 1;
     width:100%;
     height: 100%;
     background-color: #544940 ;
@@ -2018,9 +2030,8 @@ section {
   z-index: -1;
   margin-left: -10px; }
   section .footer {
-    position: fixed;
     bottom: 0;
-    width: 100%;
+    width: 99vw;
     background-image: url(../images/backgrounds/backf.jpg);
     padding: 10px;
     background-size: cover;
@@ -2039,6 +2050,7 @@ section {
 .logo2{
     width: 150px;
     height: 150px;
+    animation: flick 2s infinite;
   }
   .social-links{
     display: flex;
@@ -2070,12 +2082,10 @@ section {
     }
   }
  /* Footer Section End */
- @media screen and (max-width: 444px) {
       .fixthumb{
-         width:10vh !important;
+         width:15vh !important;
+         height:15vh !important;
        }
-     }
-
      @keyframes flick{
        0%{
         opacity: 1;

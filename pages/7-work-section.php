@@ -14,9 +14,9 @@
 											</button>
 							</div></center>
 							<div class="work-thumb">
-								<div class="row" style="">
+								<div class="row" >
 											 <?php		 foreach ($work as $thumb ) { ?>
-										   	<div class="col-lg-4 col-sm-6" style="">
+										   	<div class="col-lg-4 col-sm-6" >
 													<div class="work-set">
 		 										 		<div class="work-img <?php echo $thumb["cat"]; ?>" id="">
 		 											 		<img src="<?php echo $thumb["img"]; ?>" alt="">

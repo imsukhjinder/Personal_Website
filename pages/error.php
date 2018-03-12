@@ -4,9 +4,15 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8"><title>Request Handling</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Request Handling</title>
   </head>
 <style media="screen">
+  body{
+    margin: 0px;
+  }
       .hero {
       background-color: #0040C1;
       position: relative;
@@ -100,7 +106,7 @@
   </style>
   <body>
     <div class="hero">
-    <div class="hero__title">Processing Request...</div>
+    <div class="hero__title" id="er">Processing Request...</div>
     <div class="cube"></div>
     <div class="cube"></div>
     <div class="cube"></div>
@@ -118,7 +124,7 @@
         $email = trim($_POST['email']);
         $phone = $_POST['phone'];
         $msg = $_POST['message'];
-        $errormsg ="Please wait...";
+        $errormsg =" ";
         /* Validations Start */
         if(has_header_injection($name) || has_header_injection($email) || has_header_injection($phone) || has_header_injection($msg))
           { die();}
@@ -139,15 +145,15 @@
                   $valid = "false";
                   $errormsg = "Invalid Email Format";
               }
-              elseif (preg_match("/<script>/i",$msg)) {
+              elseif (preg_match("/<script>/",$msg)) {
                   $valid = "false";
                   $errormsg = "Writing script is prohibited in my site";
               }
-              elseif (preg_match("/php/i",$msg)) {
+              elseif (preg_match("/php/",$msg)) {
                   $valid = "false";
                   $errormsg = "Writing php is prohibited in my site please use P.H.P";
               }
-              echo "<h1 style='color:white;'>$errormsg</h1><br>";
+              echo "<h1 style='color:white;'>$errormsg </h1><br>";
         /* Validations End */
     if ($valid == "true") {
             // Add the recipient email to a variable
