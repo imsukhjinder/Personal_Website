@@ -145,14 +145,11 @@
                   $valid = "false";
                   $errormsg = "Invalid Email Format";
               }
-              elseif (preg_match("/<script>/",$msg)) {
+              elseif (preg_match("/<script>/i",$msg)||preg_match("/<\?php/i",$msg)) {
                   $valid = "false";
-                  $errormsg = "Writing script is prohibited in my site";
+                  $errormsg = "Writing script or php code is prohibited in my site";
               }
-              elseif (preg_match("/php/",$msg)) {
-                  $valid = "false";
-                  $errormsg = "Writing php is prohibited in my site please use P.H.P";
-              }
+
               echo "<h1 style='color:white;'>$errormsg </h1><br>";
         /* Validations End */
     if ($valid == "true") {

@@ -5,7 +5,7 @@
           <a href="https://www.google.co.in/maps/place/Jandu+Singha,+Punjab+144025/@31.3781137,75.644172,15z/data=!3m1!4b1!4m5!3m4!1s0x391a576f2916402f:0x1756afd4b269190!8m2!3d31.3775351!4d75.6517912" target="_blank">
       <div class="detail-box ">
 <!-- Icon Credits <a href='http://www.freepik.com/free-vector/collection-of-internet-icons_1012687.htm'>Designed by Freepik</a> -->
-            <div class="icon">  <img src="assets/images/icons/location.svg">  </div>
+            <div class="icon">  <img src="assets/images/icons/location.svg" alt="sukhjinder singh">  </div>
               <div class="data">
                 V.P.O. Jandu Singha <br>
                 Dist. - Jalandhar <br>
@@ -14,7 +14,7 @@
               </div>
           </div></a>
         <div class="detail-box ">
-            <div class="icon">              <img src="assets/images/icons/mail.svg">            </div>
+            <div class="icon">              <img src="assets/images/icons/mail.svg" alt="sukhjinder singh vicky">            </div>
             <div class="data">
               mailtosukhjinder@yahoo.com <br>
               sweetsardaar@india.com

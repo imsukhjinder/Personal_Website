@@ -11,7 +11,7 @@
           <title>Sweet Sardaar</title>
 	</head><body>
 				<div id="loader">
-					<img src="assets/images/icons/bars.svg" alt="loding-lines"><center>  <h1>Loading...<br> Please Wait</h1></center>
+					<img src="assets/images/icons/bars.svg" alt="sukhjinder singh webdeveloper"><center>  <h1>Loading...<br> Please Wait</h1></center>
 				</div>
 				<?php include 'pages/4-hero-section.php'; ?>
 				<?php include 'pages/5-intro-section.php'; ?>

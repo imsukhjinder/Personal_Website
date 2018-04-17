@@ -1,6 +1,6 @@
 <div class="cover" id="Home">
       <div class="layer"><div class="cover-content" >
-                    <img src="assets\images\backgrounds\logo.png" alt="logo" class="logo" >
+                    <img src="assets\images\backgrounds\logo.png" alt="sukhjinder singh webdeveloper" class="logo" >
                 <div class="circle-menu" >
                   <!-- Menu Credits goes to  "Bennett Feely" url https://codemyui.com/concentric-circles-navigation-menu/ -->
                   <nav class="top-right open" id="topright">

@@ -75,9 +75,9 @@ $personalskills = array(
               array(
                      "img" => "assets/images/work-thumb/2.jpg",
                      "cat" => "Website",
-                      "name" =>"Khareedo.com",
-                     "tag" => "E-commerce Website",
-                     "link" => "under/index.html"
+                      "name" =>"GumneJao.com",
+                     "tag" => "Tour and Travelling Booking Website",
+                     "link" => "https://gumnejao.000webhostapp.com/"
                                              ),
              array(
                     "img" => "assets/images/work-thumb/5.jpg",

@@ -19,7 +19,7 @@
 										   	<div class="col-lg-4 col-sm-6" >
 													<div class="work-set">
 		 										 		<div class="work-img <?php echo $thumb["cat"]; ?>" id="">
-		 											 		<img src="<?php echo $thumb["img"]; ?>" alt="">
+		 											 		<img src="<?php echo $thumb["img"]; ?>" alt="sukhjinder singh webdeveloper" >
 																<a href="<?php echo $thumb["link"]; ?>" target="_blank"><div class="thumb-overlay">
 																	<?php echo $thumb["name"]; ?>
 																	<div class="sub-heading">

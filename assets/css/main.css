@@ -2027,11 +2027,11 @@ textarea.has-value + label {
 
 /*  Footer Section */
 section {
-  z-index: -1;
-  margin-left: -10px; }
+  z-index: 1;
+  }
   section .footer {
     bottom: 0;
-    width: 99vw;
+    width: 100vw;
     background-image: url(../images/backgrounds/backf.jpg);
     padding: 10px;
     background-size: cover;

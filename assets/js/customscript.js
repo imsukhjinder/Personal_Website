@@ -263,16 +263,11 @@ $(document).ready(function () {
       return false;
     }
 //check that writing script is not allowed
-      if(msg.match(/<script>/i)){
-        txterror = "Writing Script is not allowed ";
+  /*    if(msg.match(/<script>/i)||msg.match(/<\?php/i)){
+        txterror = "Writing Script or Php code is not allowed ";
         errorhandle(txterror);
         return false;
-      }
-      if(msg.match(/<?php/i)){
-        txterror = "Writing php is not allowed please p.h.p";
-        errorhandle(txterror);
-        return false;
-      }
+      } */
 });
 //close btn
     $(".closebtn").click(function (){

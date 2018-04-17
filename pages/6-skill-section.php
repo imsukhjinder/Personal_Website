@@ -10,7 +10,7 @@
                         ?>
                           <div class="skill-unit">
                                         <div class="name-unit">
-                                        <div class="skill-icon"><img src='<?php echo $skill["icon"]; ?>'></div>
+                                        <div class="skill-icon"><img src='<?php echo $skill["icon"]; ?>' alt="sukhjinder singh webdeveloper"></div>
                                         <div class="skill-name"><?php echo $skill["name"]; ?></div>
                                       </div>
                                       <div class="skill-line skill-<?php echo $skill["count"]; ?>"><span></span>	<span></span>	<span></span>	<span></span>	<span></span>
@@ -24,7 +24,7 @@
                             <?php      foreach ($personalskills as $skill ) {  ?>
                                 <div class="skill-unit">
                                       <div class="name-unit">
-                                        <div class="skill-icon"><img src="<?php echo $skill["icon"]; ?>"></div>
+                                        <div class="skill-icon"><img src="<?php echo $skill["icon"]; ?>" alt="sukhjinder singh webdeveloper"></div>
                                         <div class="skill-name"><?php echo $skill["name"]; ?></div>
                                       </div>
                                       <div class="skill-line skill-<?php echo $skill["count"]; ?>"><span></span>	<span></span>	<span></span>	<span></span>	<span></span>
