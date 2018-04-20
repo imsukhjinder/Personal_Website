@@ -9,9 +9,9 @@
           <div >
               <a href="https://www.facebook.com/sukhjindersingh.vicky.31" target="_blank"><img src="assets/images/icons/f neon.svg" alt="sukhjinder singh" class="iconf" ></a>
           </div>
-                <div >
+      <!--          <div >
               <a href="https://plus.google.com/u/0/100348732735879666436" target="_blank"><img src="assets/images/icons/g neon.svg" alt="sukhjinder " class="iconf" ></a>
-          </div>
+          </div> -->
           <div >
             <a href="https://github.com/imsukhjinder" target="_blank"><img src="assets/images/icons/github.png" alt="sukhjinder singh vicky" class="iconf" ></a>
           </div>
